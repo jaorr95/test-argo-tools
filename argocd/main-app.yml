@@ -9,8 +9,6 @@ spec:
     repoURL: https://github.com/jaorr95/test-argo-tools.git
     targetRevision: HEAD
     path: projects/argo-apps
-    kustomize:
-      version: v4.5.7
   destination:
     server: https://kubernetes.default.svc
     namespace: apps
